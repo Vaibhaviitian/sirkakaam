@@ -18,7 +18,7 @@ function App() {
   });
   const [summary_data, setsummarydata] = useState(null);
 
-  const API_URL = "http://localhost:3000";
+  const API_URL = "https://sirkakaam.onrender.com";
 
   const fetchTodos = async () => {
     setIsLoading((prev) => ({ ...prev, todos: true }));
